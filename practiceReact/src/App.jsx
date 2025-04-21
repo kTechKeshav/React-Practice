@@ -1,10 +1,10 @@
 import React from "react";
-import ShoppingList from "./components3/ShoppingList";
-import Profile from "./components3/Profile";
-import Counter from "./components3/Counter";
-import TodoList from "./components3/TodoList";
-
-import Copy from "./components4/copy";
+// import ComplexCounter from "./component7/ComplexCounter";
+import UseRef from "./component7/UseRef";
+// import Reducer from "./component7/Reducer";
+// import UserProfile from "./components6/UserProfile";
+// import { UserProvider } from "./components6/UserContext";
+// import UpdateUser from "./components6/UpdateUser";
 
 const App = () => {
   return (
@@ -16,14 +16,15 @@ const App = () => {
     //   img={"https://avatars.githubusercontent.com/u/147409782?v=4"}
     // />
 
+    // <UserProvider>
+    //   <UserProfile />
+    //   <UpdateUser/>
+    // </UserProvider>
+
     <>
-      {/* <TodoList/>
-      <Counter />
-      <ShoppingList />
-      <Profile /> */}
-
-      <Copy/>
-
+      {/* <Reducer/> */}
+      {/* <ComplexCounter/> */}
+      <UseRef/>
     </>
   );
 };
